@@ -1,0 +1,9 @@
+prototype(marlenndascamt.Site:Component.Layout.Default) < prototype(Neos.Fusion:Component) {
+    content = ''
+
+    renderer = afx`
+        <marlenndascamt.Site:Component.Header />
+        {props.content}
+        <marlenndascamt.Site:Component.Footer />
+    `
+}

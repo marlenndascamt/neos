@@ -1,0 +1,7 @@
+'marlenndascamt.Site:Document.Page':
+  superTypes:
+    'marlenndascamt.Site:Document.AbstractPage': true
+  ui:
+    label: i18n
+    icon: file-o
+    position: 100
